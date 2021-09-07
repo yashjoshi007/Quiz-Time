@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
 }
 
 body {
@@ -10,10 +12,12 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #313645;
-
+  background-color:#1e2128;
 }
-
+.custom-logo{
+  position: absolute;
+  top:50px;
+}
 h1 {
   color: #fff;
   margin: 20px 0;
@@ -28,7 +32,7 @@ h1 {
 }
 
 .progress--bar {
-  background-color: #00ff00;
+  background-color: #77b6d7;
   height: 100%;
   transition: all ease 0.5s;
   width: 0%;
@@ -40,9 +44,14 @@ h1 {
 }
 
 .questionArea {
-  max-width: 600px;
+  max-width: 700px;
   width: 100%;
   padding: 0 15px;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .question {
@@ -77,9 +86,16 @@ h1 {
 .option:hover {
   background-color: rgba(0, 0, 0, 0.2);
 }
-
+.option:hover{
+  background-color: #0e0f107d;
+}
 .scoreArea {
-  background-color: rgba(255, 255, 255, 0.5);
+  background: #1e2128;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
   padding: 20px;
   border-radius: 20px;
   margin: 10px;
@@ -93,14 +109,14 @@ h1 {
 }
 
 .scoreText1 {
-  color: #000;
+  color: #fff;
   font-size: 23px;
   font-weight: bold;
   margin: 20px auto 10px;
 }
 
 .scorePct {
-  color: #0d630d;
+  color: greenyellow;
   font-size: 30px;
   font-weight: bold;
   margin-bottom: 10px;
@@ -108,7 +124,7 @@ h1 {
 
 .scoreText2 {
   font-size: 16px;
-  color: #000;
+  color: #fff;
   margin-bottom: 10px;
 }
 

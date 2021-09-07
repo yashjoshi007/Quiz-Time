@@ -108,7 +108,7 @@ function finishQuiz() {
   let points = Math.floor((correctAnswers / questions.length) * 100);
 
   if (points <= 30) {
-    scoreText1.innerHTML = "oops, needs to improve";
+    scoreText1.innerHTML = "Oops, needs to improve";
     scorePct.style.color = "#f00000";
   } else if (points > 30 && points < 70) {
     scoreText1.innerHTML = "Good job";
