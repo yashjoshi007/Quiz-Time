@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url('../img/bckgrd.png');
+    background-image: url('../images/bckgrd.png');
     background-size: cover;
     background-position:center;
     font-family: sans-serif;
@@ -180,7 +180,7 @@ button{
     text-align:center;
     border-radius:12px;
     border:2px solid #366473;
-    paddding:10px 50px;
+    padding:10px 50px;
     outline:none;
     color:white;
     cursor:pointer;

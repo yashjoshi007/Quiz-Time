@@ -7,38 +7,38 @@
         <div class="container">
         <div class="regform"><h1> Sign Up</h1></div>
         <div class="main">
-        <form>
+        <form required="required">
             <div id="name">
             <h2 class="name">Name</h2>
-            <input class="firstname" type="text" name="first_name"><br>
+            <input class="firstname" type="text" name="first_name" required><br>
             <label class="firstlabel">first name</label>
-            <input class="lastname" type="text">
+            <input class="lastname" type="text" required>
             <label class="lastlabel">last name</label>
         </div>
         <h2 class="name">Company or Institute</h2>
-        <input class="company" type="text" name="company">
+        <input class="company" type="text" name="company" required>
         <h2 class="name">Email</h2>
-        <input class="email" type="text" name="email">
+        <input class="email" type="text" name="email" required>
         <h2 class="name">Phone</h2>
-        <input class="code" type="text" name="area_code">
+        <input class="code" type="text" value="+91" name="area_code" required>
         <label class="area-code">Area code(eg:+91)</label>
-        <input class="number" type="text" name="phone">
+        <input class="number" type="tel" value="1234567890" name="phone" required>
         <label class="phone-number">Phone Number</label>
             <h2 class="name"> Gender</h2>
             <select class="option" name="gender">
-            <option disabled="disabled" selected="selected">--Choose Option</option>
-            <option> Male</option>
+            <option disabled="disabled" selected="selected" default>--Choose Option</option>
+            <option > Male</option>
             <option> Female</option>
             <option> Other</option>
-        </select>
+            </select>
         <h2 id="student">Are You above the age of 16 ?</h2>
         <label class="radio">
-        <input class="radio-one" type="radio" checked="checked" name="">
+        <input class="radio-one" type="radio" checked="checked" name="ask" required>
         <span class="checkmark"></span>
         Yes
         </label>
        <label class="radio">
-           <input class="radio-two" type="radio" name="">
+           <input class="radio-two" type="radio" name="ask">
            <span class="checkmark"></span>
            No
        </label> <br>

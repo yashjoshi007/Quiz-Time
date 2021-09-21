@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@300&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color:#1e2128;
+}
+.custom-logo{
+  position: absolute;
+  top:50px;
+}
+h1 {
+  color: #fff;
+  margin: 20px 0;
+}
+
+.progress {
+  height: 5px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.progress--bar {
+  background-color: #77b6d7;
+  height: 100%;
+  transition: all ease 0.5s;
+  width: 0%;
+}
+
+.questionArea,
+.scoreArea {
+  display: none;
+}
+
+.questionArea {
+  max-width: 700px;
+  width: 100%;
+  padding: 0 15px;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.question {
+  color: #fff;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  color: #a7b6e4;
+  font-size: 16px;
+  cursor: pointer;
+}
+.option span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  margin-left: 5px;
+  margin-right: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #4b5677;
+}
+.option:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.option:hover{
+  background-color: #0e0f107d;
+}
+.scoreArea {
+  background: #1e2128;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 20px;
+  border-radius: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.prizeImage {
+  width: auto;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.scoreText1 {
+  color: #fff;
+  font-size: 23px;
+  font-weight: bold;
+  margin: 20px auto 10px;
+}
+
+.scorePct {
+  color: greenyellow;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.scoreText2 {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.scoreArea button {
+  border: 0;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ccc;
+  padding: 10px 80px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.scoreArea button:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}

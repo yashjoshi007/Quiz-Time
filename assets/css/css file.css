@@ -1,7 +1,7 @@
 body{
     margin:0;
     padding:0;
-    background: url('../img/bckgrd.png');
+    background: url('../images/bckgrd.png');
     background-size: cover;
     background-position:center;
     font-family: sans-serif;
@@ -67,7 +67,7 @@ font-size:16px;
 }
 .loginbox input[type="submit"]{
 cursor:pointer;
-background: :#ffc107;
+background: #ffc107;
 color:#000;
 }
 .loginbox a{
